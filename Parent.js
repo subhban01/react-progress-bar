@@ -19,19 +19,19 @@ export default class Parent extends React.Component {
             <div className={styles['demo']}>Theme 1
                <ReactProgressBar percent={10} theme={'theme1'}/>
             </div>
-            <div className={styles['demo']}>
+            <div className={styles['demo']}>Theme 2
                <ReactProgressBar percent={80} theme={'theme2'}/>
             </div>
-            <div className={styles['demo']}>
+            <div className={styles['demo']}>Theme 3
                <ReactProgressBar percent={50} theme={'theme3'}/>
             </div>
-            <div className={styles['demo']}>
-               <ReactProgressBar percent={100} theme={'theme4'} length='40%'/>
+            <div className={styles['demo']}>Theme 4
+               <ReactProgressBar percent={42} theme={'theme4'} length='40%'/>
             </div>
-            <div className={styles['demo']}>
+            <div className={styles['demo']}>Theme 5
                <ReactProgressBar percent={90} theme={'theme5'}/>
             </div>
-            <div className={styles['demo']}>
+            <div className={styles['demo']}>Theme 6
                <ReactProgressBar percent={50} theme={'theme6'}/>
             </div>
             <div className={styles['demo']}>
